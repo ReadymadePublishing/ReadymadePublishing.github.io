@@ -203,8 +203,35 @@ pre {
         padding: 5px 10px; } }
 
 /**
- * Site footer
+ * archive
  */
+.issues {
+  list-style: none; }
+
+.issues .issue {
+  margin: 20px;
+  border: 1px solid black;
+  width: 290px;
+  display: inline-block;
+  padding: 5px; }
+.issues .issue-title {
+  font-family: serif;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 2px; }
+.issues .issue-number,
+.issues .issue-date {
+  width: 50%;
+  display: inline-block; }
+.issues .issue-date {
+  float: left; }
+.issues .issue-number {
+  text-align: right; }
+
+.issue-header {
+  border-bottom: 1px solid black; }
+
+.issue
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0; }
